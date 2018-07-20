@@ -16,9 +16,6 @@ class Counter extends Component {
         }
         const onIncrement = this.props.onIncrement;
         onIncrement(this.props.index, parseInt(adder));
-        setTimeout(()=>{
-            
-        },1000);
     }
 
     addAsync = () => {
